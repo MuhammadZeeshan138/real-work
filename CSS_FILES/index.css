@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+     color: black;
+     background-color :white;
+     border: 2px solid  black;
+     border-radius: 4px;
+     padding: 20px 50px;
+     font-size: 30px;
+     font-weight: bold;
+     text-shadow: 10px 10px 10px gray;
+     cursor: pointer;
+     box-shadow: 10px 10px 25px white;
+     
+}
+
+#btn:hover{
+    box-shadow: 20px 20px 30px inset black;
+    font-style: italic;
+    transition: all 0.5s ease;
+    
+}
