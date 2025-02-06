@@ -1,0 +1,392 @@
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+}
+
+/* navigation */
+
+#navbar {
+   display: flex;
+   position: relative;
+   align-items: center;
+
+}
+
+/* Navigation bar logo and Image */
+
+#logo {
+   margin: -30px -30px;
+}
+
+#logo img {
+   margin: 8px 10px;
+   height: 200px;
+}
+
+/* Navigation listing */
+
+#navbar ul {
+   display: flex;
+   padding: 0px 120px;
+
+}
+
+#navbar::before {
+   content: "";
+   position: absolute;
+   width: 100%;
+   height: 100%;
+   opacity: 0.99;
+   z-index: -1;
+   background-color: black;
+}
+
+#navbar ul li {
+   list-style: none;
+   font-size: 1.8rem;
+}
+
+#navbar ul li a {
+   display: block;
+   color: rgb(225, 72, 11);
+   padding: 13px 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+#navbar ul li a:hover {
+   background-color: white;
+   transition: 1s;
+}
+
+#navbar ul li a:hover,
+#navbar ul li a:active {
+   color: red;
+}
+
+#navbar h2 {
+   position: relative;
+   top: 25px;
+   color: white;
+}
+
+#navbar button {
+   padding: 12px 28px;
+   position: relative;
+   left: -20px;
+}
+
+#log:hover {
+   color: white;
+   background-color: black;
+   transition: 0.5s;
+}
+
+#log {
+   font-size: 20px;
+   font-weight: bold;
+   border: 2px solid gray;
+   border-radius: 8px;
+}
+
+/* Home Section */
+
+#home::before {
+   content: "";
+   position: absolute;
+   background: url(pexels-linda-prebreza-87411-286951.jpg) no-repeat center center /cover;
+   z-index: -1;
+   width: 100%;
+   height: 130%;
+   opacity: 0.8;
+   top: 22%;
+}
+
+/* Utility Classes */
+#home h1 {
+   text-align: center;
+   font-size: 5.5rem;
+   font-family: "Courgette", serif;
+   color: rgb(127, 143, 46);
+   text-decoration: underline;
+   opacity: 0.8;
+}
+
+#home h2 {
+   text-align: center;
+   color: rgb(43, 38, 38);
+   font-size: 150px;
+}
+
+.h-primary {
+   font-size: 3.8rem;
+   padding: 12px;
+}
+
+.btn {
+   left: 37%;
+   display: flex;
+   position: absolute;
+   align-items: center;
+   background-color: gray;
+   color: white;
+   font-size: 20px;
+   padding: 15px 20px;
+   border-radius: 10px;
+   justify-content: center;
+}
+
+.btn:hover {
+   background-color: white;
+   color: black;
+   cursor: pointer;
+   transition: 0.5s;
+}
+
+.btn-1 {
+   left: 50%;
+   display: flex;
+   position: absolute;
+   align-items: center;
+   border-radius: 10px;
+   background-color: gray;
+   color: white;
+   font-size: 20px;
+   padding: 15px 20px;
+   justify-content: center;
+}
+
+.btn-1:hover {
+   background-color: white;
+   color: black;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+/* Section-services */
+.center {
+   position: absolute;
+   top: 152%;
+   background-color: khaki;
+   width: 100%;
+   font-size: 50px;
+   margin: 0px;
+   text-decoration: underline;
+   height: 12%;
+   text-align: center;
+}
+
+.maskaara {
+   width: 50%;
+   height: 100%;
+   top: 200px;
+   position: relative;
+   z-index: -1;
+}
+
+.maskaara1 {
+   width: 50%;
+   height: 100%;
+   top: 164%;
+   position: absolute;
+
+}
+
+.services-container p {
+   position: relative;
+   left: 50%;
+   font-size: 30px;
+   width: 755px;
+   top: -249px;
+   font-style: italic;
+   height: 412px;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   background-color: peru;
+}
+
+/* section items */
+
+.discount {
+   position: relative;
+   top: -280px;
+   color: white;
+   background-color: rgb(6, 6, 6);
+   font-size: 40px;
+   font-style: italic;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100px;
+}
+
+#allitems {
+   display: flex;
+   margin: -250px 100px;
+}
+
+#allitems .allboxes {
+   padding: 20px 20px;
+   margin: 12px;
+   border-radius: 30px;
+   box-shadow: inset 9px 9px 15px rgb(21, 17, 17);
+   background-color: rgb(200, 194, 194);
+}
+
+#allitems .allboxes img {
+   margin: auto;
+   display: block;
+   height: 250px;
+   width: 250px;
+   border-radius: 20px;
+   transition-duration: 0.5s;
+
+}
+
+#allitems .allboxes img:hover {
+   transform: scale(1.5);
+}
+
+.text-center {
+   text-align: center;
+   font-size: 20px;
+}
+
+/* second row section */
+#allrows {
+   display: flex;
+   margin: -250px 100px;
+}
+
+#allrows .row-two {
+   padding: 20px 20px;
+   border-radius: 30px;
+   position: relative;
+   top: 270px;
+   background-color: rgb(200, 194, 194);
+   margin: 12px;
+   box-shadow: inset 9px 9px 15px rgb(21, 17, 17);
+   /* top: 50px; */
+}
+
+#allrows .row-two img {
+   margin: auto;
+   width: 250px;
+   display: flex;
+   height: 250px;
+   border-radius: 20px;
+   transition-duration: 0.5s;
+}
+
+#allrows .row-two img:hover {
+   transform: scale(1.5);
+}
+
+.row-center {
+   text-align: center;
+   font-size: 20px;
+}
+
+/* third section */
+#allthird {
+   display: flex;
+   margin: -250px 200px;
+}
+
+#allthird .row-three {
+   background-color: rgb(200, 194, 194);
+   position: relative;
+   border-radius: 30px;
+   margin: 12px;
+   padding: 15px 80px;
+   top: 550px;
+   box-shadow: inset 9px 9px 15px rgb(21, 17, 17);
+   left: -90px;
+}
+
+#allthird .row-three img {
+   width: 250px;
+   height: 250px;
+   display: flex;
+   margin: auto;
+   border-radius: 20px;
+   transition-duration: 0.5s;
+}
+
+#allthird .row-three img:hover {
+   transform: scale(1.5);
+}
+
+.com-center {
+   text-align: center;
+   font-size: 20px;
+}
+
+#button label {
+   position: relative;
+   top: 850px;
+   font-size: 50px;
+   align-items: center;
+   color: rgb(10, 70, 90);
+   font-weight: bold;
+   justify-content: center;
+   text-decoration: underline;
+   font-style: italic;
+   display: flex;
+}
+
+#button button {
+   position: relative;
+   top: 890px;
+   padding: 15px 20px;
+   font-size: 25px;
+   background-color: black;
+   color: white;
+
+}
+
+#for-btn {
+   border-radius: 10px;
+   left: 45%;
+}
+
+#for-btn:hover {
+   background-color: white;
+   color: black;
+   transition: 0.5s;
+}
+
+.last {
+   background-color: rgb(193, 183, 183);
+   position: relative;
+   top: 880px;
+   height: 550px;
+}
+
+.last-text h2 {
+   left: 150px;
+   top: 70px;
+   position: relative;
+}
+
+.last-text ul {
+   position: relative;
+   left: 120px;
+   top: 80px;
+}
+
+.submit input[type=text] {
+   padding: 10px 100px;
+   position: relative;
+   border: 2px solid black;
+   border-radius: 5px;
+   transition: 0.5s;
+   cursor: pointer;
+}
+
+.submit input[type=text]:hover {
+   background-color: black;
+
+}
