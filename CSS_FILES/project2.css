@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mybtn{
+    color: white;
+    padding: 40px 60px;
+    border: 2px solid white;
+    font-size: 35px;
+    font-weight: bold;
+    position: relative;
+    right: 120px;
+    box-shadow: 15px 5px 10px white;
+}
+
+.container div{
+    position: relative;
+    width: 20px;
+    height: 180px;
+    border: 2px solid black;
+    display: inline;
+    background-color: black;
+    border-radius: 30%;
+    top: 0px;
+    bottom: 150px;
+    margin: 1px;
+    left: 130px;
+    cursor: pointer;
+}
+
+.container div:nth-child(1):hover{
+    background-color: yellow;
+    box-shadow: 20px 40px 40px white;
+    
+    
+}
+.container div:nth-child(2):hover{
+    background-color: green;
+    height: 190px;
+    box-shadow: 20px 40px 40px white;
+}
+.container div:nth-child(3):hover{
+    background-color:  orange;
+    height: 200px;
+    box-shadow: 20px 20px 40px white;
+}
+.container div:nth-child(4):hover{
+    background-color: darkred;
+    height: 210px;
+    box-shadow: 20px 20px 20px white;
+}
+.container div:nth-child(5):hover{
+    background-color: darkmagenta;
+    height: 220px;
+    box-shadow: 20px 20px 20px white;
+}
+.container div:nth-child(6):hover{
+    background-color: chartreuse;
+    height: 230px;
+    box-shadow: 20px 20px 20px white;
+}
+.container div:nth-child(7):hover{
+    background-color: deeppink;
+    height: 240px;
+    box-shadow: 20px 20px 20px white;
+}
+.container div:nth-child(8):hover{
+    background-color: darkseagreen;
+    height: 250px;
+    box-shadow: 20px 20px 20px white;
+}
+.container div:nth-child(9):hover{
+    background-color:lightcoral;
+    height:260px;
+    box-shadow: 20px 20px 20px white;
+}
+
+.container div:nth-child(10):hover{
+    background-color: rebeccapurple;
+    height:260px;
+    box-shadow: 20px 20px 20px white;
+}
+#mybtn:hover{
+    background-color: crimson;
+    transition: 0.5s;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
