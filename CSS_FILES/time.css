@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+#mytime{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    font-size: 100px;
+    font-weight: bold;
+}
