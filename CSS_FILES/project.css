@@ -1,0 +1,452 @@
+body {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Protest Revolution", sans-serif
+}
+
+img {
+    width: 1520px;
+    height: 705px;
+}
+
+.logo {
+    position: absolute;
+    top: 3px;
+    left: 10px;
+}
+
+.logo img {
+    width: 160px;
+    height: 150px;
+}
+
+.include {
+    text-align: center;
+    font-size: 18px;
+}
+
+.include strong {
+    font-size: 33px;
+    color: green;
+}
+
+.include b {
+    font-size: 33px;
+    color: green;
+}
+
+.fornav {
+    display: block;
+    background-color: rgb(97, 92, 92);
+    width: 46%;
+    left: 28%;
+    border-radius: 10px;
+    padding: 26px 0px;
+    margin: -45% auto;
+    position: absolute;
+}
+
+.fornav {
+    display: inline-block;
+}
+
+.fornav li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.fornav li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 34px 20px;
+}
+
+.fornav li a:hover,
+.fornav li a.active {
+    text-decoration: underline;
+    color: gray;
+}
+
+.forbtn {
+    display: inline-block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.forbtn img {
+    width: 80px;
+    height: 70px;
+    position: relative;
+    right: -50px;
+}
+
+.btn {
+    padding: 10px 25px;
+    margin: 12px 23px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+
+.btn:hover {
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: grey;
+    color: white;
+}
+
+.oopo {
+    padding: 10px 30px;
+    margin: 0px;
+    bottom: 22px;
+    left: 50%;
+}
+
+.container p {
+    position: absolute;
+    top: 35%;
+    right: 74%;
+    font-size: 25px;
+    color: rgba(18, 14, 12, 0.625);
+    text-decoration: underline;
+}
+
+.leftplus p {
+    position: absolute;
+    top: 38%;
+    left: 4%;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+}
+
+#owner {
+    position: absolute;
+    top: 52%;
+    left: 78px;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+}
+
+.btn_log {
+    padding: 15px 25px;
+    margin: 12px 23px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 5%;
+}
+
+.btn_our {
+    padding: 15px 25px;
+    margin: 12px 23px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    top: 80%;
+    left: 18%;
+}
+
+.btn_log:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.btn_our:hover {
+    background-color: grey;
+    color: white;
+    transition: 1s;
+}
+
+.eat {
+    width: 48%;
+    height: 620px;
+    display: inline-block;
+    font-family: "Abril Fatface", serif;
+}
+
+.eat h1 {
+    position: absolute;
+    top: 120%;
+    left: 15%;
+    font-size: 80px;
+}
+
+.eat p {
+    position: absolute;
+    top: 145%;
+    left: 15%;
+}
+
+.para2 p {
+    position: absolute;
+    display: block;
+    top: 150%;
+    left: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.para3 p {
+    position: absolute;
+    top: 155%;
+    left: 15%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lastline {
+    position: absolute;
+    top: 160%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#see {
+    position: absolute;
+    top: 170%;
+    left: 15%;
+    border: 2px solid gray;
+    padding: 18px 35px;
+    font-size: 15px;
+}
+
+#see:hover {
+    background-color: gray;
+    transition: 0.5s;
+    color: white;
+}
+
+.seemore img {
+    position: absolute;
+    width: 52%;
+    height: 90%;
+    left: 48%;
+    top: 101%;
+}
+
+.drink {
+    position: absolute;
+    width: 48%;
+    height: 620px;
+    left: 48%;
+}
+
+.drink h1 {
+    position: absolute;
+    font-family: "Abril Fatface", serif;
+    top: 13%;
+    left: 17%;
+    font-size: 80px;
+}
+
+.drink h6 {
+    position: absolute;
+    font-family: "Abril Fatface", serif;
+    top: 39%;
+    left: 125px;
+    font-size: 15px;
+}
+
+.drink p {
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    top: 50%;
+    left: 120px;
+}
+
+#visit {
+    position: absolute;
+    top: 76%;
+    left: 17%;
+    font-size: 15px;
+    padding: 18px 35px;
+}
+
+#visit:hover {
+    background-color: gray;
+    transition: 0.5s;
+    color: white;
+}
+
+.drink img {
+    position: absolute;
+    width: 100%;
+    height: 101%;
+    right: 100%;
+}
+
+.enjoy {
+    position: absolute;
+    width: 48%;
+    height: 620px;
+}
+
+.enjoy h1 {
+    position: absolute;
+    top: 115%;
+    right: 42%;
+    font-family: "Abril Fatface", serif;
+    font-size: 80px;
+}
+
+.enjoy h6 {
+    position: absolute;
+    top: 140%;
+    right: 51%;
+    font-size: 15px;
+    font-family: "Abril Fatface", serif;
+}
+
+.enjoy p {
+    position: absolute;
+    top: 150%;
+    right: 32%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#visit2 {
+    position: absolute;
+    border: 2px solid gray;
+    padding: 18px 25px;
+    font-size: 18px;
+    top: 175%;
+    left: 27%;
+}
+
+#visit2:hover {
+    background-color: gray;
+    color: white;
+    transition: 0.5s;
+}
+
+.enjoy img {
+    position: absolute;
+    top: 102%;
+    left: 100%;
+    width: 108%;
+    height: 100%;
+}
+
+.cont {
+    background-color: rgb(219, 179, 144);
+    width: 208%;
+    height: 65%;
+    top: 202%;
+    position: absolute;
+}
+
+.cont h2 {
+    position: absolute;
+    top: 0%;
+    left: 33%;
+    font-family: "Abril Fatface", serif;
+    font-size: 55px;
+}
+
+.cont img {
+    position: absolute;
+    top: 40%;
+    width: 1%;
+    height: 50%;
+    left: 47%;
+}
+
+.cont p {
+    position: absolute;
+    top: 40%;
+    left: 28%;
+}
+
+#extrapart b {
+    position: absolute;
+    top: 0px;
+    left: 65%
+}
+
+.time p {
+    left: 115%;
+    margin: 10px;
+    position: relative;
+    top: 1480px;
+}
+
+.last {
+    width: 208%;
+    height: 80%;
+    position: absolute;
+    top: 267%;
+    background-color: rgba(41, 228, 113, 0.784);
+}
+
+.last h3 {
+    position: absolute;
+    top: 10%;
+    left: 85px;
+    font-size: 35px;
+    font-family: "Abril Fatface", serif;
+}
+
+.last p {
+    position: absolute;
+    top: 30%;
+    right: 72%;
+}
+
+.last input[type=email] {
+    position: absolute;
+    top: 55%;
+    left: 5.5%;
+    padding: 15px 120px;
+}
+
+.last input[type=email]:hover {
+    background-color: gray;
+    transition: 0.7s;
+    border: 1px solid rgb(222, 209, 209);
+}
+
+.last input[type=checkbox] {
+    position: absolute;
+    top: 75%;
+    left: 6%;
+}
+
+label {
+    position: absolute;
+    top: 75%;
+    left: 8%;
+}
+
+#join {
+    position: absolute;
+    top: 74%;
+    left: 25%;
+    padding: 10px 35px;
+    font-size: 20px;
+
+}
+
+.last button:hover {
+    color: rgb(221, 226, 226);
+    background-color: gray;
+    transition: 0.5s;
+}
+
+.last br {
+    position: relative;
+    left: 90%;
+}
+
+.last h2 {
+    position: relative;
+    left: 70%;
+    top: -27%;
+    font-family: "Abril Fatface", serif;
+    font-size: 50px;
+}
