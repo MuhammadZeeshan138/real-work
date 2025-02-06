@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    padding: 0px 10px;
+    margin: 10px;
+    margin: auto;
+    width: 95vw;
+    height: 80vh;
+    background-color: rgb(218, 207, 207);
+}
+
+.box1 {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: bold;
+    width: 400px;
+    height: 500px;
+    top: 30px;
+    background-color: rgb(206, 156, 156);
+    box-shadow: 20px 20px 18px 2px crimson, 25px 25px 35px 8px orange inset, 30px 30px 40px 5px yellow;
+    border: 2px solid rgb(190, 35, 128);
+    border-radius: 10px;
+}
+
+.box2 {
+    position: relative;
+    border: 2px solid rgb(6, 8, 6);
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    font-size: 35px;
+    text-decoration: underline;
+    background-color: gray;
+    border-radius: 10px;
+    font-weight: bold;
+    top: 30px;
+    left: 80px;
+    transition-property: background-color;
+    transition: height 2s, width 2s;
+}
+
+#hover2:hover {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+.box3 {
+    position: relative;
+    border: 2px solid darkmagenta;
+    width: 400px;
+    font-size: 35px;
+    text-decoration: underline;
+    animation-name: animate1;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    height: 500px;
+    text-align: center;
+    top: 30px;
+    left: 170px;
+}
+
+@keyframes animate1 {
+0%{
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+20%{
+    background-color: yellowgreen;
+    width: 300px;
+    
+}
+40%{
+    background-color: lightcoral;
+    width: 400px;
+}
+60%{
+    background-color: darkmagenta;
+    width: 500px;
+}
+80%{
+    background-color: fuchsia;
+}
+100%{
+    background-color: darkgoldenrod;
+}
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    height: 50px;
+}
