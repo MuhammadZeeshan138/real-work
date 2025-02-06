@@ -1,0 +1,44 @@
+#joke{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/034/633/633/small/ai-generated-nature-plant-green-bouquet-sunlit-ai-generated-photo.jpg) no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 800px;
+    height: 500px;
+    border: 2px solid black;
+    padding: 50px;
+    font-style: italic;
+    left: 90px;
+    top: 30px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 20px 20px 10px black;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(193, 181, 181);
+}
+
+#btn{
+    padding: 20px 30px;
+    right: 470px;
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    top: 100px;
+    box-shadow: 10px 10px 15px inset black;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    border-radius: 10px;
+    text-shadow: 5px 5px 5px white;
+}
