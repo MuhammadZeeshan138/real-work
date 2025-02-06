@@ -1,0 +1,432 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img {
+    width: 100%;
+    height: 714px;
+}
+
+.logo img {
+    width: 150px;
+    height: 140px;
+    position: absolute;
+    top: -20px;
+    z-index: 2;
+}
+
+.nav_bar {
+    width: 100%;
+    display: inline-block;
+    margin: -775px auto;
+    font-size: 24px;
+    background-color: rgb(122, 119, 102);
+    position: absolute;
+    text-align: center;
+    font-family: "Abril Fatface", serif;
+}
+
+.nav_bar li {
+    display: inline-block;
+    padding: 8px 8px;
+}
+
+.nav_bar li a {
+    display: inline-block;
+    padding: 50px 35px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav_bar li a:hover,
+.nav_bar li a.active {
+    text-decoration: underline;
+    color: rgb(225, 33, 33);
+    transition: 0.5s;
+}
+
+.logo h3 {
+    position: relative;
+    top: -645px;
+    z-index: 33;
+    left: 60px;
+}
+
+#free {
+    position: absolute;
+    z-index: 33;
+    top: 100px;
+    left: 60px;
+}
+
+#btn {
+    position: absolute;
+    top: 95px;
+    background-color: gray;
+    left: 82%;
+    padding: 10px 22px;
+    color: white;
+    border: 2px solid rgb(14, 2, 2);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(9, 9, 9);
+    color: white;
+    transition: 0.5s;
+}
+
+.btn img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 3px;
+    left: 81.5%;
+}
+
+label,
+option,
+select {
+    position: relative;
+    bottom: 688px;
+    left: 88.5%;
+    color: rgb(7, 7, 7);
+}
+
+select {
+    bottom: 661px;
+    left: 81%;
+    color: white;
+    background-color: gray;
+    border: 2px solid beige;
+    font-size: 15px;
+}
+
+label {
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+.mid h3 {
+    position: absolute;
+    top: 28%;
+    left: 36%;
+    font-size: 20px;
+}
+
+.mid h1 {
+    position: absolute;
+    top: 23%;
+    left: 21.5%;
+    color: rgb(198, 170, 44);
+    font-family: "Abril Fatface", serif;
+    font-size: 150px;
+}
+
+.mid h4 {
+    position: absolute;
+    top: 65%;
+    left: 36%;
+    font-size: 28px;
+}
+
+.mid button {
+    position: absolute;
+    top: 80%;
+    left: 44.5%;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#book {
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+}
+
+#book:hover {
+    transition: 0.5s;
+    background-color: rgb(225, 223, 216);
+    color: rgb(0, 0, 0);
+}
+
+.about {
+    position: relative;
+    bottom: 83px;
+    width: 800px;
+    height: 700px;
+}
+
+.about h2 {
+    position: absolute;
+    top: 115px;
+    left: 33%;
+    font-size: 50px;
+}
+
+.about p {
+    position: absolute;
+    top: 230px;
+    left: 33%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p:nth-child(odd) {
+    position: absolute;
+    top: 380px;
+    left: 33%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.about button {
+    padding: 12px 25px;
+    position: relative;
+    top: 550px;
+    left: 33%;
+    margin: 3px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+#btn2:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.about img {
+    position: relative;
+    width: 712px;
+    height: 100%;
+    left: 100%;
+    top: -51px;
+}
+
+.update img {
+    position: absolute;
+    width: 100%;
+    height: 1000px;
+    top: 1414px;
+}
+
+.update h1 {
+    position: absolute;
+    color: white;
+    left: 33%;
+    font-size: 60px;
+    top: 215%;
+    font-family: "Abril Fatface", serif;
+}
+
+.boxes {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+
+#box-1 {
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    color: white;
+    border: 10px solid rgb(12, 167, 178);
+    z-index: 1;
+}
+
+#box-2 {
+    width: 300px;
+    height: 450px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    color: white;
+    border: 10px solid rgb(237, 198, 70);
+    margin: 20px;
+    z-index: 1;
+}
+
+#box-3 {
+    width: 300px;
+    height: 450px;
+    margin: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Abril Fatface", serif;
+    color: white;
+    border: 10px solid rgb(16, 223, 20);
+    z-index: 1;
+}
+
+.last p {
+    position: relative;
+    color: white;
+    font-family: "Abril Fatface", serif;
+    top: -20px;
+    left: -10px;
+    font-size: 32px;
+}
+
+.booka1 button {
+    position: relative;
+    padding: 10px 30px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    top: 0px;
+    cursor: pointer;
+}
+
+#firstbtn:hover {
+    background-color: red;
+    transition: 0.5s;
+    color: white;
+}
+
+.last button {
+    cursor: pointer;
+    position: relative;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    top: -40px;
+    border: 2px solid gray;
+}
+
+#book3:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.boxka button {
+    position: relative;
+    padding: 10px 30px;
+    top: 16px;
+    background-color: black;
+    color: white;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+
+#book2:hover {
+    background-color: red;
+    color: white;
+    transition: 0.5s;
+}
+
+.pink {
+    position: relative;
+    font-size: 20px;
+    top: -55px;
+    left: 0px;
+    background-color: burlywood;
+    width: 100%;
+    height: 650px;
+}
+
+.pink h3 {
+    position: absolute;
+    top: 20px;
+    z-index: 3;
+    left: 20%;
+    text-decoration: underline;
+}
+
+.pink p {
+    position: relative;
+    left: 20%;
+    top: 15%;
+}
+
+.pink img {
+    position: relative;
+    width: 30px;
+    height: 40px;
+    top: 50px;
+}
+
+.pink img,
+.three img {
+    position: relative;
+    left: -1%;
+    margin: 10px;
+}
+
+.more button {
+    position: relative;
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    top: -100px;
+    left: 45%;
+    border: 2px solid saddlebrown;
+    font-size: 15px;
+    border-radius: 10px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#moreser:hover {
+    background-color: sandybrown;
+    color: black;
+    transition: 0.5s;
+}
+
+.give input {
+    position: relative;
+    top: -50%;
+    bottom: 370px;
+    left: 58%;
+    padding: 14px 45px;
+}
+
+.give p {
+    position: absolute;
+    left: 58%;
+    top: -5px;
+}
+
+.subj input {
+    position: relative;
+    padding: 12px 50px;
+}
+
+.give input[type=submit] {
+    position: absolute;
+    top: 83%;
+    padding: 25px 35px;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 8px 200px;
+}
+
+#hove:hover {
+    background-color: gray;
+    color: brown;
+    transition: 0.5s;
+}
